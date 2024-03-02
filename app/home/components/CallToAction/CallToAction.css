@@ -1,0 +1,19 @@
+#join-us-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+#join-us-button{
+    margin: 3rem;
+    font-size: 6rem;
+    padding: 4rem;
+    border-radius: 5rem;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+}
+#join-us-button:hover{
+    background-color: black;
+    color: white;
+}

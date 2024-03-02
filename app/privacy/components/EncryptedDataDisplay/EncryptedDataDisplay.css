@@ -1,0 +1,9 @@
+.encrypted-data-display{
+    background-color: rgb(56, 56, 56);
+    color: orange;
+    display: inline-block;
+    border: 4px solid gray;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}

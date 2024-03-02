@@ -1,0 +1,27 @@
+.vote-hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.vote-hero > div{
+    margin: 4rem;
+}
+.vote-hero-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+}
+.hero-header{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.hero-subheader{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.spotlight-bills-container{
+    display: flex;
+    align-items: center;
+}

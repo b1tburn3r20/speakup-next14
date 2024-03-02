@@ -1,0 +1,31 @@
+.categorized-bills-container{
+    display: flex;
+}
+.bill-display-card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all .3s;
+}
+.bill-display-card:hover{
+    background-color: white;
+    color: black;
+    scale: 1.05;
+}
+.bill-display-card-tags-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.bill-display-card-tag{
+    margin: .2rem .3rem;
+    padding: .5rem;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    text-align: center;
+}

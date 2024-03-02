@@ -1,0 +1,29 @@
+.spotlight-bill-container {
+    position: relative;
+    overflow: hidden;
+    min-height:  250px;
+    min-width:  400px; 
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+   
+    
+  }
+  
+  .bill {
+    position: absolute;
+    width:  100%; /* Ensure the bill fits exactly within the container */
+    top:  0;
+    transition: transform  0.5s ease;
+    left:  0; /* Adjusted to align with the container's left edge */
+    padding: 1rem;
+    line-height: 1;
+  }
+  
+  .prev, .next {
+    transform: translateX(-100%); /* Move off-screen to the left */
+  }
+  
+  .current {
+    transform: translateX(0); /* Keep the current bill centered and visible */
+  }

@@ -1,0 +1,42 @@
+.HomeHeroContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.hero-text-contents{
+    font-size: 2.5rem;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.HomeHeroContainer {
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    color: black;
+  }
+  
+  .fact-slide {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    transition: transform 0.5s ease;
+    left: 0;
+    padding: 1rem;
+  }
+  
+  .current {
+    transform: translateX(0);
+  }
+  
+  /* Hide other slides by default */
+  .fact-slide:not(.current) {
+    transform: translateX(-100%);
+  }
+  .stag-stats{
+    width: 50vw;
+    margin-right: 3rem;
+  }
