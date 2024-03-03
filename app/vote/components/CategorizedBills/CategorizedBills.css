@@ -1,5 +1,12 @@
+.categorized-bills{
+    color: black;
+
+}
+
 .categorized-bills-container{
     display: flex;
+    border-bottom: solid 2px rgba(0, 0, 0, .1);
+
 }
 .bill-display-card{
     display: flex;
@@ -11,16 +18,16 @@
     border: 2px solid white;
     cursor: pointer;
     transition: all .3s;
+    background-color: black;
+    color: white;
+
+
 }
 .bill-display-card:hover{
     background-color: white;
     color: black;
+    border: 2px solid black;
     scale: 1.05;
-}
-.bill-display-card-tags-container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
 }
 .bill-display-card-tag{
     margin: .2rem .3rem;
@@ -28,4 +35,14 @@
     background-color: rgba(255, 255, 255, .5);
     border-radius: 5px;
     text-align: center;
+    transition: all .3s;
+}
+.bill-display-card:hover .bill-display-card-tag{
+    background-color: black;
+    color: white;
+}
+.bill-display-card-tags-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
